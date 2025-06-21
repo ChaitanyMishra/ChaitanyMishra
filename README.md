@@ -38,10 +38,10 @@ I'm currently on an exciting path to become a versatile full-stack developer, wi
 * [x] Tailwind CSS & Utility-first styling
 * [x] DOM Manipulation with JavaScript
 * [x] Git & GitHub Version Control
-* [ ] JavaScript Deep Dive (ES6, Async, Closures)
+* [x] JavaScript Deep Dive (ES6, Async, Closures)
+* [x] React.js (on going)
 * [ ] Node.js + Express Fundamentals
 * [ ] MongoDB (CRUD + Mongoose)
-* [ ] React.js (Coming soon 🚧)
 * [ ] Cloud Deployment (AWS / GCP)
 
 ---
