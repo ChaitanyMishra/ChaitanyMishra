@@ -26,7 +26,7 @@ I'm currently on an exciting path to become a versatile full-stack developer, wi
 
 | Project                 | Stack                       | What It Does                                     | Repo                                                                                | Demo                           |
 | ----------------------- | --------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------ |
-| **SnapFetch**           | HTML, CSS, JS, APIs         | AI-powered image finder using Pixabay + Unsplash | [Repo](https://github.com/ChaitanyMishra/api-image-generator)                       | [Live]([https://www.linkedin.com/feed/update/urn:li:activity:7339383291306786820/](https://api-image-generator-j7bd.vercel.app/)) |
+| **SnapFetch**           | HTML, CSS, JS, APIs         | AI-powered image finder using Pixabay + Unsplash | [Repo](https://github.com/ChaitanyMishra/api-image-generator)                       | [Live][LIVE](https://api-image-generator-j7bd.vercel.app/) |
 | **Taskify (To-Do App)** | HTML, CSS, JS, LocalStorage | Task tracker with add/edit/delete, persistence   | [Repo](https://github.com/ChaitanyMishra/daily-dev-evolution/tree/main/01-todo-app) | — |
 | **Daily Dev Evolution** | HTML, CSS, JS               | 10+ mini-projects: Clock, Weather, Quotes, more  | [Repo](https://github.com/ChaitanyMishra/daily-dev-evolution)                       | —                              |
 
