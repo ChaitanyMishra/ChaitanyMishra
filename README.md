@@ -1,10 +1,10 @@
 # 🚀 Chaitany Mishra — Web Developer in the Making
 
 ---
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Final+Year+BCA+Student;Frontend+to+Full+Stack;Elevating+Web+Experiences; " alt="Typing SVG" />
+</p>
 
-### **Final-Year BCA Student | Aspiring Full-Stack Developer | Cloud Enthusiast**
-
----
 
 ## 🚀 My Journey into Code
 
