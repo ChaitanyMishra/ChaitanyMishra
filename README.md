@@ -2,7 +2,9 @@
 
 ---
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Final+Year+BCA+Student;Frontend+to+Full+Stack;Elevating+Web+Experiences; " alt="Typing SVG" />
+   <img src ="https://media.tenor.com/s1PTNnkaSQsAAAAi/js-java-script.gif" height = "98px" padding = ""34px/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Final+Year+BCA+Student;Frontend+to+Full+Stack;Elevating+Web+Experiences; " alt="Typing SVG" /> <img src ="https://media.tenor.com/TCRFRR67pVkAAAAi/rebrnd-coding.gif" height="99px"/>
+  
 </p>
 
 
@@ -26,7 +28,7 @@ I'm currently on an exciting path to become a versatile full-stack developer, wi
 
 | Project                 | Stack                       | What It Does                                     | Repo                                                                                | Demo                           |
 | ----------------------- | --------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------ |
-| **SnapFetch**           | HTML, CSS, JS, APIs         | AI-powered image finder using Pixabay + Unsplash | [Repo](https://github.com/ChaitanyMishra/api-image-generator)                       | [Live][LIVE](https://api-image-generator-j7bd.vercel.app/) |
+| **SnapFetch**           | HTML, CSS, JS, APIs         | AI-powered image finder using Pixabay + Unsplash | [Repo](https://github.com/ChaitanyMishra/api-image-generator)                       | [LIVE](https://api-image-generator-j7bd.vercel.app/) |
 | **Taskify (To-Do App)** | HTML, CSS, JS, LocalStorage | Task tracker with add/edit/delete, persistence   | [Repo](https://github.com/ChaitanyMishra/daily-dev-evolution/tree/main/01-todo-app) | — |
 | **Daily Dev Evolution** | HTML, CSS, JS               | 10+ mini-projects: Clock, Weather, Quotes, more  | [Repo](https://github.com/ChaitanyMishra/daily-dev-evolution)                       | —                              |
 
@@ -64,7 +66,13 @@ I'm currently on an exciting path to become a versatile full-stack developer, wi
 
 ## 📈 GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ChaitanyMishra\&show_icons=true\&theme=radical)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ChaitanyMishra&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=ChaitanyMishra&theme=tokyonight&hide_border=true" width="49%" />
+  <br><br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaitanyMishra&bg_color=1a1b27&color=79d3c3&line=3e68a8&point=5699c6&area=true&hide_border=true" width="100%" />
+</div>
+
 
 ---
 
