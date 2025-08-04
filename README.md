@@ -3,7 +3,7 @@
 ---
 <p align="center">
    <img src ="https://media.tenor.com/s1PTNnkaSQsAAAAi/js-java-script.gif" height = "98px" padding = ""34px/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Final+Year+BCA+Student;Frontend+to+Full+Stack;Elevating+Web+Experiences; " alt="Typing SVG" /> <img src ="https://media.tenor.com/TCRFRR67pVkAAAAi/rebrnd-coding.gif" height="169px"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Final+Year+BCA+Student;Frontend+to+Full+Stack;Elevating+Web+Experiences; " alt="Typing SVG" style="textSize="34px"" /> <img src ="https://media.tenor.com/TCRFRR67pVkAAAAi/rebrnd-coding.gif" height="100px"/>
   
 </p>
 
