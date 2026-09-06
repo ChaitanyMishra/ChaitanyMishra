@@ -48,7 +48,7 @@ Currently on a self-directed, intensive study track covering async databases, SQ
 | Project | Stack | What It Does | Repo |
 |---|---|---|---|
 | **Invoice & Receipt Parser** | Python, FastAPI, PostgreSQL, SQLModel | Extracts structured data from invoices using OCR + LLM parsing, relational data model with CRUD | [Repo](https://github.com/ChaitanyMishra/invoice-receipt-parser) |
-| **Plant Disease Identification System** | Python, MobileNetV2 (CNN), Gemini API | Classifies plant diseases from leaf images with a confidence-threshold LLM fallback | [Repo](#) |
+| **Plant Disease Identification System** | Python, MobileNetV2 (CNN), Gemini API | Classifies plant diseases from leaf images with a confidence-threshold LLM fallback | [Repo]( https://github.com/ChaitanyMishra/plant_disease_identification)|
 | **Facial Emotion Detection System** | Python, OpenCV, CNN | Real-time facial emotion classification | [Repo](#) |
 
 ---
