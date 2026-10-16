@@ -1,45 +1,64 @@
-# 🚀 Chaitany Mishra — Applied AI & Backend Developer
+<h1 align="center">Chaitany Mishra</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=A259FF&center=true&vCenter=true&width=640&lines=Entry-Level+Python+Backend+Developer;FastAPI+%2B+PostgreSQL+%2B+Celery+%2B+Redis;Regex+%2B+LLM+Hybrid+Parsing;Applied+AI%3A+LLM+APIs+%2B" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/chaitany-dev-hash/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:chaitany.mishra.tech@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=A259FF&center=true&vCenter=true&width=600&lines=Python+Backend+Developer;FastAPI+%2B+PostgreSQL+%2B+Docker;Applied+AI%3A+LLMs+%2B+OpenCV;Building+Production-Grade+APIs" alt="Typing SVG" />
-</p>
 
 ## 👋 About Me
 
-I'm Chaitany — a backend developer building systems that put LLMs and computer vision to real work, not just wrapping an API and calling it done. I care about understanding what's happening under the hood: proper data modeling, clean CRUD design, cascade behavior, migrations — the stuff that separates a working demo from a production system.
+I'm an entry-level backend developer from Kanpur, India. Over the last few months I've been building backend systems from scratch: FastAPI + PostgreSQL services, async batch pipelines with Celery + Redis, and hybrid parsing that pairs deterministic regex with LLM fallback for the fields regex can't handle reliably.
 
-Currently on a self-directed, intensive study track covering async databases, SQLModel, Alembic migrations, and testing — built specifically to move past copy-paste coding toward real engineering understanding.
+I care about what happens under the hood: data modeling, idempotent writes, retries, and failure handling. These separate a working demo from a system you can trust.
+
+**Looking for my first Python Backend / Applied AI role at a startup. Open to relocating anywhere in India.**
 
 ---
 
 ## 🔧 Currently Building
 
-**Automated Invoice & Receipt Parser** — a backend system for extracting structured data from invoices/receipts using OCR + LLM-based parsing, backed by a proper relational schema (one-to-many models, cascade deletes, partial updates).
+### [Invoice Parser API](https://github.com/ChaitanyMishra/invoice-receipt-parser)
 
-📁 [ChaitanyMishra/invoice-receipt-parser](https://github.com/ChaitanyMishra/invoice-receipt-parser)
+A backend service that turns uploaded invoices and receipts into structured data.
+
+- **Hybrid parsing:** multi-pattern regex for the 6 fields with consistent labels, LLM (Groq → Gemini) only for vendor name, address and line items
+- **Fast and accurate:** ~0.001 s per regex parse versus 4-30 s LLM-only, 100% accuracy on 10 test invoices
+- **Reliable:** format + cross-field validation, idempotent writes, retries with exponential backoff, and regex results still returned if every LLM provider fails
+- **Async:** batch uploads processed by Celery + Redis workers, with the API returning a `batch_id` immediately
+
+`Python` · `FastAPI` · `PostgreSQL` · `SQLModel` · `Celery` · `Redis` · `pdfplumber`
+
+**Status:** working end-to-end. Next: multi-invoice PDF splitting, Docker, pytest suite.
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Backend**
+
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white)](https://www.sqlalchemy.org/)
+[![SQLModel](https://img.shields.io/badge/SQLModel-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://sqlmodel.tiangolo.com/)
+[![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)](https://docs.celeryq.dev/)
 [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
 **Applied AI**
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
-![LLM APIs](https://img.shields.io/badge/LLM_APIs-Gemini%20%7C%20Claude-black?style=for-the-badge)
+
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 **Tools**
+
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Linux](https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linuxmint&logoColor=white)](https://linuxmint.com/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+[![Linux Mint](https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linuxmint&logoColor=white)](https://linuxmint.com/)
 
 ---
 
@@ -47,23 +66,34 @@ Currently on a self-directed, intensive study track covering async databases, SQ
 
 | Project | Stack | What It Does | Repo |
 |---|---|---|---|
-| **Invoice & Receipt Parser** | Python, FastAPI, PostgreSQL, SQLModel | Extracts structured data from invoices using OCR + LLM parsing, relational data model with CRUD | [Repo](https://github.com/ChaitanyMishra/invoice-receipt-parser) |
-| **Plant Disease Identification System** | Python, MobileNetV2 (CNN), Gemini API | Classifies plant diseases from leaf images with a confidence-threshold LLM fallback | [Repo]( https://github.com/ChaitanyMishra/plant_disease_identification)|
-| **Facial Emotion Detection System** | Python, OpenCV, CNN | Real-time facial emotion classification | [Repo](#) |
+| **Invoice Parser API** | Python, FastAPI, PostgreSQL, SQLModel, Celery, Redis | Turns invoices into structured data using regex + validation, with a Groq → Gemini fallback and async batch processing | [Repo](https://github.com/ChaitanyMishra/invoice-receipt-parser) |
+| **Plant Disease Identification** | Python, MobileNetV2 (CNN), Gemini API | Classifies plant diseases from leaf images, with an LLM fallback when model confidence is low | [Repo](https://github.com/ChaitanyMishra/plant_disease_identification) |
 
 ---
 
 ## 📚 Learning Roadmap
 
-- [x] Python fundamentals & OOP
-- [x] FastAPI — routing, Pydantic, auth, pytest
-- [x] REST API design & CRUD architecture
-- [x] SQLModel / SQLAlchemy — relationships, cascade behavior
-- [ ] Async database sessions
+**Solid**
+- [x] Python fundamentals, OOP
+- [x] FastAPI: routing, Pydantic, file uploads, error handling
+- [x] PostgreSQL + SQLModel: relationships, sessions, CRUD, idempotency
+- [x] Regex: multi-pattern extraction, validation, edge cases
+- [x] LLM integration: prompts, fallback chains, rate-limit handling
+- [x] Celery + Redis: async tasks, retries, worker orchestration
+- [x] Git + GitHub workflows
+
+**In progress**
+- [ ] Docker + docker-compose
+- [ ] Deployment (Render / Railway)
+- [ ] pytest test suite
+- [ ] JWT authentication + per-user data isolation
+- [ ] Structured logging
+
+**Planned**
 - [ ] Alembic migrations
-- [ ] Redis caching & Celery task queues
-- [ ] Docker containerization & deployment (Render/Railway)
-- [ ] AWS SAA-C03 (post-capstone)
+- [ ] Async database sessions
+- [ ] OCR for scanned PDFs (Tesseract)
+- [ ] AWS basics, then SAA-C03
 
 ---
 
@@ -72,19 +102,18 @@ Currently on a self-directed, intensive study track covering async databases, SQ
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ChaitanyMishra&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
   <img src="https://streak-stats.demolab.com?user=ChaitanyMishra&theme=tokyonight&hide_border=true" width="49%" />
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaitanyMishra&bg_color=1a1b27&color=79d3c3&line=3e68a8&point=5699c6&area=true&hide_border=true" width="100%" />
 </div>
 
 ---
 
 ## 📫 Let's Connect
 
-Open to **Applied AI / Python Backend** roles at startups. Happy to talk about backend architecture, LLM integration, or anything I'm currently building.
+Happy to talk about backend architecture, LLM integration, or anything I'm building.
 
 - 📧 [chaitany.mishra.tech@gmail.com](mailto:chaitany.mishra.tech@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/chaitany-dev-hash/)
+- 💻 [GitHub](https://github.com/ChaitanyMishra)
 
 ---
 
-### ⚒ "Understanding the system beats copying the code."
+<p align="center"><i>"Understanding the system beats copying the code."</i></p>
