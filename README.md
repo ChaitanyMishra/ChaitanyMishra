@@ -24,6 +24,7 @@ I care about what happens under the hood: data modeling, idempotent writes, retr
 ## 🔧 Currently Building
 
 ### [Invoice Parser API](https://github.com/ChaitanyMishra/invoice-receipt-parser)
+**Live Demo:** [https://invoice-web-hw3q.onrender.com](https://invoice-web-hw3q.onrender.com)
 
 A backend service that turns uploaded invoices and receipts into structured data.
 
@@ -62,11 +63,9 @@ A backend service that turns uploaded invoices and receipts into structured data
 
 ---
 
-## 🚀 Featured Projects
-
-| Project | Stack | What It Does | Repo |
-|---|---|---|---|
-| **Invoice Parser API** | Python, FastAPI, PostgreSQL, SQLModel, Celery, Redis | Turns invoices into structured data using regex + validation, with a Groq → Gemini fallback and async batch processing | [Repo](https://github.com/ChaitanyMishra/invoice-receipt-parser) |
+| Project | Stack | What It Does | Live Demo | Repo |
+|---|---|---|---|---|
+| **Invoice Parser API** | Python, FastAPI, PostgreSQL, SQLModel, Celery, Redis | Turns invoices into structured data using regex + validation, with a Groq → Gemini fallback and async batch processing | [Live Demo](https://invoice-web-hw3q.onrender.com) | [Repo](https://github.com/ChaitanyMishra/invoice-receipt-parser) |
 | **Plant Disease Identification** | Python, MobileNetV2 (CNN), Gemini API | Classifies plant diseases from leaf images, with an LLM fallback when model confidence is low | [Repo](https://github.com/ChaitanyMishra/plant_disease_identification) |
 
 ---
@@ -83,8 +82,8 @@ A backend service that turns uploaded invoices and receipts into structured data
 - [x] Git + GitHub workflows
 
 **In progress**
-- [ ] Docker + docker-compose
-- [ ] Deployment (Render / Railway)
+- [X] Docker + docker-compose
+- [X] Deployment (Render / Railway)
 - [ ] pytest test suite
 - [ ] JWT authentication + per-user data isolation
 - [ ] Structured logging
