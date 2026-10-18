@@ -110,7 +110,7 @@ A backend service that turns uploaded invoices and receipts into structured data
 Happy to talk about backend architecture, LLM integration, or anything I'm building.
 
 - 📧 [chaitany.mishra.tech@gmail.com](mailto:chaitany.mishra.tech@gmail.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/chaitany-dev-hash/)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/chaitanymishra/)
 - 💻 [GitHub](https://github.com/ChaitanyMishra)
 
 ---
