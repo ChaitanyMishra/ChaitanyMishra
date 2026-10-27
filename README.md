@@ -84,14 +84,12 @@ A backend service that turns uploaded invoices and receipts into structured data
 **In progress**
 - [X] Docker + docker-compose
 - [X] Deployment (Render / Railway)
-- [ ] pytest test suite
-- [ ] JWT authentication + per-user data isolation
-- [ ] Structured logging
-
+- [x] pytest test suite
+- [x] JWT authentication + per-user data isolation
+- [x] Structured logging
+- [x] Alembic migrations
+- [x] Async database sessions
 **Planned**
-- [ ] Alembic migrations
-- [ ] Async database sessions
-- [ ] OCR for scanned PDFs (Tesseract)
 - [ ] AWS basics, then SAA-C03
 
 ---
